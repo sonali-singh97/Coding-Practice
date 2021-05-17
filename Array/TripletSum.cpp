@@ -1,7 +1,12 @@
+ 
+/*Given an array arr of size n and an integer X. Find if there's a triplet in the array which sums up to the given integer X.
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
+
   bool find3Numbers(int arr[], int n, int X)
 { 
-   
-
    sort(arr, arr+n);
     
      for(int k =0; k< n-2 ; k++){
@@ -10,7 +15,7 @@
         while(i<j){
             int sum = arr[k]+arr[i]+arr[j];
             if( sum == X){
-                return 1;
+                return true;
             }
             
             else if (sum > X){
@@ -20,7 +25,6 @@
                 i++;
             }
         }
-        return 0;
 }
-
+ return false;
 }
