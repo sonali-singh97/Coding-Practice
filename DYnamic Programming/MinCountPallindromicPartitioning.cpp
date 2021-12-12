@@ -64,6 +64,6 @@ Src: https://youtu.be/qmTtAbOTqcg
 -> Return count[len-1] 
 
 2. Another DP arroach: n^3
-3. Recursion: n! or 2^n
+3. Recursion: (n*2^n) or n! *n
 
 *********************/
