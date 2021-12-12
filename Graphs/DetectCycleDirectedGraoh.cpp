@@ -38,5 +38,5 @@ bool checkComponent(vector<int> adj[], vector<bool>& dfsVisit, vector<bool>& vis
     /*****APPROACH****
      Time: O(V+E)
      Method 1(above): Make two array dfsVisit and visited and check if a node is visited again in the same dfs, then it's a cycle.
-     Method 2: Do Topological Sort, if nodes < n then there is a cycle.
+     Method 2: Do Topological Sort, if nodes < n then there is a cycle(Kahn's Algorithm)
      *****************/
