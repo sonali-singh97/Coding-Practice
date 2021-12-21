@@ -35,7 +35,7 @@ string pathMoreThanK(int n, int m, int k, vector<vector<int>>& edges)
 }
 
 /**** Approach****
-Time Complexity: N!
+Time Complexity: N! (every node is connected to eavery node)
 
 Use Backtracking
 - call function for every children 

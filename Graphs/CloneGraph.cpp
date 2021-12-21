@@ -25,6 +25,6 @@
     }
 
 /****Approach****
-Time Complexity: O(E.V) (In case of fully connected graph)
+Time Complexity: O(E+V) (In case of fully connected graph= (E.V))
 - Use DFS to clone the graph and store the cloned nodes in hashmap/array
 ******/
